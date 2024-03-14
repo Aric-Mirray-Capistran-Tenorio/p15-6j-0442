@@ -13,13 +13,15 @@ class Pantalla1_0442 extends StatelessWidget {
         title: Text('Pantalla1 Capsitran_0442'),
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {}, //FIN de onPressed
-              child: const Text('Pantalla1'),
+        child: Card(
+          color: Colors.cyan,
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              "Tarjeta Capistran",
+              style: TextStyle(fontSize: 30, color: Color(0xff03355e)),
             ),
-          ], //fin de children
+          ),
         ),
       ),
     );
