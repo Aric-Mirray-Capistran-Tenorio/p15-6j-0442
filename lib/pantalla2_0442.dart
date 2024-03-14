@@ -9,15 +9,25 @@ class Pantalla2_0442 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.greenAccent,
-        title: Text('Pantalla2 Capsitran_0442'),
+        backgroundColor: Color(0xff36d297),
+        title: const Text('Pantalla2 Capsitran_0442'),
       ),
       body: Center(
-        child: Text(
-          'Panatalla2',
+        child: Container(
+          color: Color(0xffdee117),
+          width: double.infinity,
+          height: 150,
+          child: Text(
+            'Tarjeta Capistran',
+            style: TextStyle(
+              fontSize: 30,
+              color: Color(0xff061774),
+              fontWeight: FontWeight.bold,
+            ),
+            textAlign: TextAlign.center,
+          ),
         ),
       ),
     );
-    ;
   } //fin widget
 } //fin Pantalla2_0442
